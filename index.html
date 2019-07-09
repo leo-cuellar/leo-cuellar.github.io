@@ -1,7 +1,953 @@
 <!DOCTYPE html>
-<html>
-  <body>
-    <h1>Hello World</h1>
-    <p>I'm hosted with GitHub Pages.</p>
-  </body>
+<html lang="es">
+<head>
+	
+	<!--
+		Básico
+	-->
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+	<title>Leopoldo Cuéllar Martínez - Desarollador web front-end</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<meta name="description" content="Página personal de Leopoldo Cuéllar" />
+	<meta name="author" content="leo-cuellar" />
+	
+	<!--
+		Fuentes
+	-->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,500,500i,600,600i,700,700i&amp;subset=cyrillic" rel="stylesheet">
+	
+	<!--
+		CSS
+	-->
+	<link rel="stylesheet" href="css/basic.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="css/blogs.css" />
+	<link rel="stylesheet" href="css/line-awesome.css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" />
+	<link rel="stylesheet" href="css/animate.css" />
+	<link rel="stylesheet" href="css/simplebar.css" />
+	<link rel="stylesheet" href="css/colores/red.css" />
+	
+	<!--
+		Favicon
+	-->
+	<link rel="shortcut icon" href="images/favicons/favicon.ico">
+	
+</head>
+
+<body>
+	<div class="page">
+		
+		<!--
+			Preloader
+		-->
+		<div class="preloader">
+			<div class="centrize full-width">
+				<div class="vertical-center">
+					<div class="spinner">
+						<div class="double-bounce1"></div>
+						<div class="double-bounce2"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--
+			Header
+		-->
+		<header class="header">
+
+			<!-- logo -->
+			<div class="logo">
+				<a href="#"><span>L</span></a>
+			</div>
+
+			<!-- menu -->
+			<div class="top-menu">
+				<ul>
+					<li class="active">
+						<a href="#home-card">
+							<span class="icon la la-home"></span>
+							<span class="link">Inicio</span>
+						</a>
+					</li>
+					<li>
+						<a href="#resume-card">
+							<span class="icon la la-file-code-o"></span>
+							<span class="link">Currículum</span>
+						</a>
+					</li>
+					<li>
+						<a href="#works-card">
+							<span class="icon la la-briefcase"></span>
+							<span class="link">Portafolio</span>
+						</a>
+					</li>
+					<li>
+						<a href="#contacts-card">
+							<span class="icon la la-envelope"></span>
+							<span class="link">Contacto</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<!-- Social -->
+			<div class="social">
+				<a target="_blank" href="https://github.com/leo-cuellar"><span class="icon la la-github"></span></a>
+				<a target="_blank" href="https://es.stackoverflow.com/users/93186"><span class="icon la la-stack-overflow"></span></a>
+			</div>
+
+			<!-- Menu movil -->
+			<span class="menu-btn">
+				<span class="m-line"></span>
+			</span>
+
+		</header>
+
+		<!--
+			Contenedor
+		-->
+		<div class="container">
+
+			<!--
+				Card - Inicio
+			-->
+			<div class="card-inner card-started active" id="home-card">
+
+				<!-- Started Background -->
+				<div class="slide" style="background-image: url(https://ecliptic.com.mx/pagina-web/wp-content/uploads/2019/07/bg.jpg);"></div>
+				
+				<div class="centrize full-width">
+					<div class="vertical-center">
+
+						<!-- Started titles -->
+						<div class="title"><span>Leopoldo</span> Cuéllar</div>
+						<div class="subtitle">
+							Soy 
+							<div class="typing-title">
+								<p><strong>desarrollador web front-end.</strong></p>
+							</div>
+							<span class="typed-title"></span>
+						</div>
+						
+					</div>
+				</div>
+
+			</div>
+			
+			<!-- 
+				Card - Currículum
+			-->
+			<div class="card-inner" id="resume-card">
+				<div class="row card-container">
+		
+					<div class="card-wrap col col-m-12 col-t-12 col-d-8 col-d-lg-6" data-simplebar>
+
+						<!-- Imagen -->
+						<div class="card-image col col-m-12 col-t-12 col-d-4 col-d-lg-6" style="background-image: url(https://ecliptic.com.mx/pagina-web/wp-content/uploads/2019/07/perfil-cv-2.jpg);"></div>
+
+						<div class="content inner-top">
+							<div class="row" style="margin-bottom: 50px">
+								<div class=" col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+									<div class="title-bg">Sobre mi</div>
+
+									<div class="text">
+										<p>
+											<strong>Soy Leopoldo</strong>, desarrollador web de la CDMX. <br />
+											Tengo más de 9 años de experiencia en el diseño y <br />
+											desarrollo de sitios web. Mis habilidades abarcan <strong>HTML, <br />
+											CSS, PHP, JavaScript y WordPress</strong>, así como administración<br />
+											de bases de datos, uso de frameworks de desarrollo <br />
+											y software de diseño gráfico.
+										</p>
+									</div>
+
+									<div class="circle-bts">
+										<a href="https://drive.google.com/open?id=1zxy68pJ25eWIXwcxcjnH_MAmrboRPKJK" target="_blank"><span><i class="icon la la-download"></i>Descargar CV</span></a>
+										<a href="https://github.com/leo-cuellar" target="_blank"><i class="icon la la-github"></i></a>
+										<a href="https://es.stackoverflow.com/users/93186" target="_blank"><i class="icon la la-stack-overflow"></i></a>
+									</div>
+
+								</div>
+							</div>
+						</div>
+
+						<!--
+							Currículum
+						-->
+						
+						<div class="content resume">
+							<div class="row">
+								<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+
+									<!-- title -->
+									<div class="title" style="text-align: center"><span>Mi</span> Experiencia</div>
+
+									<!-- resume items -->
+									<div class="resume-items card-box">
+
+										<!-- resume item -->
+										<div class="resume-item">
+											<div class="name">Desarrollador web</div>
+											<div class="date">2017-Presente <span>|</span> Ecliptic Digital Solutions</div>
+											<p>
+													-Desarrollo y mantenimiento de sitio web institucional realizado con WordPress<br />
+													-Mejora de SEO, seguridad y optimización de sitio en velocidad de carga y código<br />
+													-Integración de servicios externos (procesadores de pago, Google Analytics, Google Ads, etc.)<br />
+													-Desarrollo de páginas de aterrizaje para campañas publicitarias<br />
+													-Desarrollo de nuevos productos digitales<br />
+													-Diseño de campañas de marketing en redes sociales y motores de búsqueda<br />
+													-Desarrollo de bot de respuesta automática en messenger<br />
+													-Redacción de contenidos UX para sitio y blog<br />
+													-Diseño de gráficos vectoriales para web
+											</p>
+										</div>
+
+										<!-- resume item -->
+										<div class="resume-item">
+												<div class="name">Desarrollador web</div>
+												<div class="date">2016-2017 <span>|</span> Trinnio Grupo Inmobiliario</div>
+												<p>
+														-Diseño, desarrollo y mantenimiento de sitio web institucional con sistema de listado de propiedades, buscador, intranet y pagos en línea<br />
+														-Mejora de SEO, seguridad y optimización de sitio en velocidad de carga y código<br />
+														-Redacción de contenido UX para sitio<br />
+														-Análisis e interpretación de datos<br />
+														-Pruebas A/B de sitio y páginas de aterrizaje<br />
+														-Implementé modelos de trabajo digitales para mejorar los resultados en operaciones inmobiliarias<br />
+														-Encargado de capacitación a asesores inmobiliarios en el uso de los sistemas y CRM<br />
+														-Creación y administración de cuentas sociales<br />
+														-Implementé estrategias de SEO en el sitio que mejoraron su indexación en motores de búsqueda
+												</p>
+											</div>
+
+										<!-- resume item -->
+										<div class="resume-item">
+												<div class="name">Desarrollador web</div>
+												<div class="date">2015-2016 <span>|</span> United Services</div>
+												<p>
+														-Encargado del manejo de redes sociales y de la creación de campañas de publicidad en Google y Facebook<br />
+														-Encargado del diseño y desarrollo del sitio institucional con publicación de propiedades, intranet corporativo y foro<br />
+														-Capacitación de asesores inmobiliarios en el uso del sitio institucional y CRM<br />
+														-Análisis e interpretación de datos<br />
+														-Campañas de marketing de contenidos y redes sociales<br />
+														-Redacción de contenido para blog<br />
+														-Implementación de campañas de email y contenidos
+												</p>
+											</div>
+
+										<!-- resume item -->
+										<div class="resume-item">
+												<div class="name">Desarrollador web</div>
+												<div class="date">2010-2015 <span>|</span> Freelancer</div>
+												<p>
+														-Desarrollo de sitios web HTML, CSS, JS y WordPress<br />
+														-Administración y mantenimiento de sitios<br />
+														-Diseño de UI/UX<br />
+														-Community management<br />
+														-Análisis e interpretación de datos en campañas publicitarias<br />
+														-Desarrollo de sitios de ecommerce (implementación de sistemas de pago, buscadores, filtros, cupones, etc.)<br />
+														-Desarrollo de blog, redacción de contenidos, UX copywrite
+												</p>
+											</div>
+
+									</div>
+								</div>
+								<div class="row">
+										<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+
+												<!-- title -->
+												<div class="title" style="text-align: center"><span>Mi</span> Educación</div>
+			
+												<!-- resume items -->
+												<div class="resume-items card-box">
+			
+													<!-- resume item -->
+													<div class="resume-item">
+														<div class="name">Universidad Anáhuac México Norte</div>
+														<div class="date">Estado de México</div>
+														<p>
+															Licenciatura en ingeniería de software. Titulación proyectada para Marzo del 2020.
+														</p>
+													</div>
+			
+												</div>
+											</div>
+								</div>
+
+								<div class="row">
+										<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+
+												<!-- Título -->
+												<div class="title" style="text-align: center"><span>Mis</span> Idiomas</div>
+			
+												<div class="resume-items card-box">
+			
+													<!-- item -->
+													<div class="resume-item">
+														<div class="name">Español</div>
+														<p>
+															Lengua materna
+														</p>
+													</div>
+
+													<!-- item -->
+													<div class="resume-item">
+															<div class="name">Inglés</div>
+															<p>
+																Nivel avanzado
+															</p>
+														</div>
+			
+												</div>
+											</div>
+								</div>
+								
+							</div>
+						</div>
+
+						<!--
+							Habilidades
+						-->
+						<div class="content skills">
+							<div class="row">
+								<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
+
+									<!-- Título -->
+									<div class="title">Habilidades <span>personales</span></div>
+
+									<!-- Habilidades -->
+									<div class="skills-list card-box">
+										<ul>
+											<li> 
+												<div class="name">Comunicación</div>
+												<div class="progress">
+													<div class="percentage" style="width:100%;"></div>
+												</div>
+											</li>
+											<li> 
+												<div class="name">Trabajo en equipo</div>
+												<div class="progress">
+													<div class="percentage" style="width:100%;"></div>
+												</div>
+											</li>
+											<li> 
+												<div class="name">Organización</div>
+												<div class="progress">
+													<div class="percentage" style="width:100%;"></div>
+												</div>
+											</li>
+											<li>
+												<div class="name">Resolución de problemas</div>
+												<div class="progress">
+													<div class="percentage" style="width:100%;"></div>
+												</div>
+											</li>
+										</ul>
+									</div>
+
+								</div>
+								<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
+
+									<!-- Título -->
+									<div class="title">Habilidades <span>profesionales</span></div>
+
+									<!-- Habilidades -->
+									<div class="skills-list card-box">
+										<ul>
+											<li> 
+												<div class="name">HTML / CSS / JS</div>
+												<div class="progress">
+													<div class="percentage" style="width:95%;"></div>
+												</div>
+											</li>
+											<li> 
+												<div class="name">PHP / MySQL</div>
+												<div class="progress">
+													<div class="percentage" style="width:90%;"></div>
+												</div>
+											</li>
+											<li> 
+												<div class="name">WordPress</div>
+												<div class="progress">
+													<div class="percentage" style="width:95%;"></div>
+												</div>
+											</li>
+											<li>
+												<div class="name">Photoshop / Illustrator</div>
+												<div class="progress">
+													<div class="percentage" style="width:95%;"></div>
+												</div>
+											</li>
+										</ul>
+									</div>
+
+								</div>
+							</div>
+						</div>
+
+					</div>
+					
+				</div>
+			</div>
+			
+			<!-- 
+				Card - Works
+			-->
+			<div class="card-inner" id="works-card">
+				<div class="row card-container">
+					
+					<!--
+						Card Wrap
+					-->
+					<div class="card-wrap col col-m-12 col-t-12 col-d-8 col-d-lg-6" data-simplebar>
+
+						<!-- Work Image -->
+						<div class="card-image col col-m-12 col-t-12 col-d-4 col-d-lg-6" style="background-image: url(images/profile3.jpg);"></div>
+
+						<!--
+							Inner Top
+						-->
+						<div class="content inner-top">
+							<div class="row">
+								<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+									<div class="title-bg">Portfolio</div>
+								</div>
+							</div>
+						</div>
+
+						<!--
+							Works
+						-->
+						<div class="content works">
+							<div class="row">
+								<div class="col col-m-12 col-t-5 col-d-5 col-d-lg-5">
+
+									<!-- title -->
+									<div class="title"><span>My</span> Portfolio</div>
+
+								</div>
+								<div class="col col-m-12 col-t-7 col-d-7 col-d-lg-7">
+
+									<!-- filters -->
+									<div class="filter-menu filter-button-group">
+										<div class="f_btn active">
+											<label><input type="radio" name="fl_radio" value="grid-item" />All</label>
+										</div>
+										<div class="f_btn">
+											<label><input type="radio" name="fl_radio" value="photo" />Photo</label>
+										</div>
+										<div class="f_btn">
+											<label><input type="radio" name="fl_radio" value="video" />Video</label>
+										</div>
+										<div class="f_btn">
+											<label><input type="radio" name="fl_radio" value="music" />Music</label>
+										</div>
+										<div class="f_btn">
+											<label><input type="radio" name="fl_radio" value="design" />Design</label>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+							<!-- work items -->
+							<div class="row grid-items">
+
+								<!-- work item photo -->
+								<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6 grid-item photo">
+									<div class="box-item card-box">
+										<div class="image">
+											<a href="images/works/work1.jpg" class="has-popup-image">
+												<img src="images/works/work1.jpg" alt="" />
+												<span class="info">
+													<span class="icon la la-camera-retro"></span>
+												</span>
+											</a>
+										</div>
+										<div class="desc">
+											<a href="images/works/work1.jpg" class="name has-popup-image">Motorcycle Helmet</a>
+											<div class="category">Photo</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- work item video -->
+								<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6 grid-item video">
+									<div class="box-item card-box">
+										<div class="image">
+											<a href="https://vimeo.com/97102654" class="has-popup-video">
+												<img src="images/works/work2.jpg" alt="" />
+												<span class="info">
+													<span class="icon la la-video-camera"></span>
+												</span>
+											</a>
+										</div>
+										<div class="desc">
+											<a href="https://vimeo.com/97102654" class="name has-popup-video">Minimalism Shapes</a>
+											<div class="category">Video</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- work item music -->
+								<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6 grid-item music">
+									<div class="box-item card-box">
+										<div class="image">
+											<a href="https://w.soundcloud.com/player/?visual=true&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F221650664&show_artwork=true" class="has-popup-music">
+												<img src="images/works/work3.jpg" alt="" />
+												<span class="info">
+													<span class="icon la la-music"></span>
+												</span>
+											</a>
+										</div>
+										<div class="desc">
+											<a href="#" class="name has-popup">Staircase</a>
+											<div class="category">Music</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- work item design -->
+								<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6 grid-item design">
+									<div class="box-item card-box">
+										<div class="image">
+											<a href="#popup-1" class="has-popup-media">
+												<img src="images/works/work4.jpg" alt="" />
+												<span class="info">
+													<span class="icon la la-image"></span>
+												</span>
+											</a>
+										</div>
+										<div class="desc">
+											<a href="#popup-1" class="name has-popup-media">Mobile Application</a>
+											<div class="category">Design</div>
+										</div>
+										<div id="popup-1" class="popup-box mfp-fade mfp-hide">
+											<div class="content">
+												<div class="image">
+													<img src="images/works/work4.jpg" alt="">
+												</div>
+												<div class="desc">
+													<div class="post-box">
+														<h1>Mobile Application</h1>						
+														<div class="blog-detail">Design</div>
+														<div class="blog-content">
+															<p>
+																So striking at of to welcomed resolved. Northward by described up household therefore 
+																attention. Excellence decisively nay man yet impression for contrasted remarkably.
+															</p>
+															<p>
+																Forfeited you engrossed but gay sometimes explained. Another as studied it to evident. 
+																Merry sense given he be arise. Conduct at an replied removal an amongst. Remaining 
+																determine few her two cordially admitting old.
+															</p>
+															<blockquote>
+																Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia 
+																Curae; Pellentesque suscipit.
+															</blockquote>
+															<p>
+																Tiled say decay spoil now walls meant house. My mr interest thoughts screened of outweigh 
+																removing. Evening society musical besides inhabit ye my. Lose hill well up will he over on. 
+																Increasing sufficient everything men him admiration unpleasing sex.
+															</p>
+															<ul class="list-style">
+																<li>Greatest properly off ham exercise all.</li>
+																<li>Unsatiable invitation its possession nor off.</li>
+																<li>All difficulty estimating unreserved increasing the solicitude.</li>
+															</ul>
+															<p>
+																Unpleasant astonished an diminution up partiality. Noisy an their of meant. Death means 
+																up civil do an offer wound of.
+															</p>
+														</div>
+														<a href="#" class="button">
+															<span class="text">View Project</span>
+															<span class="arrow"></span>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- work item photo -->
+								<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6 grid-item photo">
+									<div class="box-item card-box">
+										<div class="image">
+											<a href="images/works/work5.jpg" class="has-popup-image">
+												<img src="images/works/work5.jpg" alt="" />
+												<span class="info">
+													<span class="icon la la-camera-retro"></span>
+												</span>
+											</a>
+										</div>
+										<div class="desc">
+											<a href="images/works/work5.jpg" class="name has-popup-image">Gereal Travels</a>
+											<div class="category">Photo</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- work item music -->
+								<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6 grid-item music">
+									<div class="box-item card-box">
+										<div class="image">
+											<a href="https://w.soundcloud.com/player/?visual=true&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F221650664&show_artwork=true" class="has-popup-music">
+												<img src="images/works/work8.jpg" alt="" />
+												<span class="info">
+													<span class="icon la la-music"></span>
+												</span>
+											</a>
+										</div>
+										<div class="desc">
+											<a href="#" class="name has-popup">Daylight Entrance</a>
+											<div class="category">Music</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- work item video -->
+								<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6 grid-item video">
+									<div class="box-item card-box">
+										<div class="image">
+											<a href="https://vimeo.com/97102654" class="has-popup-video">
+												<img src="images/works/work6.jpg" alt="" />
+												<span class="info">
+													<span class="icon la la-video-camera"></span>
+												</span>
+											</a>
+										</div>
+										<div class="desc">
+											<a href="https://vimeo.com/97102654" class="name has-popup-video">Architecture</a>
+											<div class="category">Video</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- work item design -->
+								<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6 grid-item design">
+									<div class="box-item card-box">
+										<div class="image">
+											<a href="#popup-2" class="has-popup-media">
+												<img src="images/works/work7.jpg" alt="" />
+												<span class="info">
+													<span class="icon la la-image"></span>
+												</span>
+											</a>
+										</div>
+										<div class="desc">
+											<a href="#popup-2" class="name has-popup-media">Social Website</a>
+											<div class="category">Design</div>
+										</div>
+										<div id="popup-2" class="popup-box mfp-fade mfp-hide">
+											<div class="content">
+												<div class="image">
+													<img src="images/works/work7.jpg" alt="">
+												</div>
+												<div class="desc">
+													<div class="post-box">
+														<h1>Mobile Application</h1>						
+														<div class="blog-detail">Design</div>
+														<div class="blog-content">
+															<p>
+																So striking at of to welcomed resolved. Northward by described up household therefore 
+																attention. Excellence decisively nay man yet impression for contrasted remarkably.
+															</p>
+															<p>
+																Forfeited you engrossed but gay sometimes explained. Another as studied it to evident. 
+																Merry sense given he be arise. Conduct at an replied removal an amongst. Remaining 
+																determine few her two cordially admitting old.
+															</p>
+															<blockquote>
+																Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia 
+																Curae; Pellentesque suscipit.
+															</blockquote>
+															<p>
+																Tiled say decay spoil now walls meant house. My mr interest thoughts screened of outweigh 
+																removing. Evening society musical besides inhabit ye my. Lose hill well up will he over on. 
+																Increasing sufficient everything men him admiration unpleasing sex.
+															</p>
+															<ul class="list-style">
+																<li>Greatest properly off ham exercise all.</li>
+																<li>Unsatiable invitation its possession nor off.</li>
+																<li>All difficulty estimating unreserved increasing the solicitude.</li>
+															</ul>
+															<p>
+																Unpleasant astonished an diminution up partiality. Noisy an their of meant. Death means 
+																up civil do an offer wound of.
+															</p>
+														</div>
+														<a href="#" class="button">
+															<span class="text">View Project</span>
+															<span class="arrow"></span>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- 
+				Card - Blog
+			-->
+			<div class="card-inner" id="blog-card">
+				<div class="row card-container">
+						
+					<!--
+						Card Wrap
+					-->
+					<div class="card-wrap col col-m-12 col-t-12 col-d-8 col-d-lg-6" data-simplebar>
+						
+						<!-- Blog Image -->
+						<div class="card-image col col-m-12 col-t-12 col-d-4 col-d-lg-6" style="background-image: url(images/profile4.jpg);"></div>
+						
+						<!--
+							Inner Top
+						-->
+						<div class="content inner-top">
+							<div class="row">
+								<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+									<div class="title-bg">My Blog</div>
+								</div>
+							</div>
+						</div>
+
+						<!--
+							Blog
+						-->
+						<div class="content blog">
+							<div class="row">
+								<div class="col col-m-12 col-t-5 col-d-5 col-d-lg-5">
+
+									<!-- title -->
+									<div class="title"><span>My</span> Blog</div>
+
+								</div>
+								<div class="col col-m-12 col-t-7 col-d-7 col-d-lg-7">
+
+									<!-- filters -->
+									<div class="all-blog">
+										<a href="blog.html">All Blog</a>
+									</div>
+
+								</div>
+							</div>
+
+							<!-- blog items -->
+							<div class="row">
+
+								<!-- blog item -->
+								<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+									<div class="box-item card-box">
+										<div class="image">
+											<a href="blog-post.html">
+												<img src="images/blog/blog1.jpg" alt="" />
+												<span class="info">
+													<span class="icon la la-newspaper-o"></span>
+												</span>
+												<span class="date"><strong>20</strong>Jun</span>
+											</a>
+										</div>
+										<div class="desc">
+											<a href="blog-post.html" class="name">By spite about do of do allow blush</a>
+											<div class="category">Design</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- blog item -->
+								<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+									<div class="box-item card-box">
+										<div class="image">
+											<a href="blog-post.html">
+												<img src="images/blog/blog2.jpg" alt="" />
+												<span class="info">
+													<span class="icon la la-newspaper-o"></span>
+												</span>
+												<span class="date"><strong>19</strong>Jun</span>
+											</a>
+										</div>
+										<div class="desc">
+											<a href="blog-post.html" class="name">Two Before Arrow Not Relied</a>
+											<div class="category">Coding</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- blog item -->
+								<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+									<div class="box-item card-box">
+										<div class="image">
+											<a href="blog-post.html">
+												<img src="images/blog/blog3.jpg" alt="" />
+												<span class="info">
+													<span class="icon la la-newspaper-o"></span>
+												</span>
+												<span class="date"><strong>20</strong>Jun</span>
+											</a>
+										</div>
+										<div class="desc">
+											<a href="blog-post.html" class="name">By spite about do of do allow blush</a>
+											<div class="category">Travel</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+						</div> 
+
+					</div>
+						
+				</div>
+			</div>
+			
+			<!-- 
+				Card - Contacts
+			-->
+			<div class="card-inner" id="contacts-card">
+				<div class="row card-container">
+					
+					<!--
+						Card Wrap
+					-->
+					<div class="card-wrap col col-m-12 col-t-12 col-d-8 col-d-lg-6" data-simplebar>
+						
+						<!-- Map -->
+						<div class="card-image col col-m-12 col-t-12 col-d-4 col-d-lg-6">
+							<div class="map" id="map"></div>
+						</div>
+							
+						<!--
+							Inner Top
+						-->
+						<div class="content inner-top">
+							<div class="row">
+								<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+									<div class="title-bg">Contacto</div>
+								</div>
+							</div>
+						</div>
+
+						<!--
+							Info de contacto
+						-->
+						<div class="content contacts-info">
+							<div class="row">
+								<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+
+									<!-- title -->
+									<div class="title">Ponte en <span>contacto</span></div>
+
+								</div>
+							</div>
+
+							<!-- contactos -->
+							<div class="row contacts-items">
+
+								<!-- item -->
+								<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+									<div class="contacts-item card-box">
+										<div class="icon"><i class="la la-map-marker"></i></div>
+										<div class="name">Dirección</div>
+										<p>
+											Jardines de Bellavista, Tlalnepantla, Estado de México
+										</p>
+									</div>
+								</div>
+
+								<!-- item -->
+								<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+									<div class="contacts-item card-box">
+										<div class="icon"><i class="la la-at"></i></div>
+										<div class="name">Email</div>
+										<p>
+											<a href="mailto:leopoldo.cuellar.m94@gmail.com" target="_blank">leopoldo.cuellar.m94@gmail.com</a>
+										</p>
+									</div>
+								</div>
+
+								<!-- item -->
+								<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+									<div class="contacts-item card-box">
+										<div class="icon"><i class="la la-phone"></i></div>
+										<div class="name">Teléfono</div>
+										<p>
+											+52 1 55 3032 5055
+										</p>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+					
+				</div>
+			</div>
+			
+			<!-- 
+				Lines Grid
+			-->
+			<div class="lines-grid">
+				<div class="row">
+					<div class="col col-m-12 col-t-6 col-d-4 col-d-lg-3"></div>
+					<div class="col col-m-12 col-t-6 col-d-4 col-d-lg-3">
+						<div class="lines">
+							<div class="line-1"></div>
+							<div class="line-2" style="animation-delay: 10s;"></div>
+						</div>
+					</div>
+					<div class="col col-m-12 col-t-6 col-d-4 col-d-lg-3">
+						<div class="lines">
+							<div class="line-1"></div>
+						</div>
+					</div>
+					<div class="col col-m-0 col-t-0 col-d-0 col-d-lg-3">
+						<div class="lines">
+							<div class="line-1"></div>
+							<div class="line-2" style="animation-delay: 0s;"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	
+	<!--
+		jQuery Scripts
+	-->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.validate.js"></script>
+	<script src="js/jquery.magnific-popup.js"></script>
+	<script src="js/imagesloaded.pkgd.js"></script>
+	<script src="js/masonry.pkgd.js"></script>
+	<script src="js/masonry-filter.js"></script>
+	<script src="js/simplebar.js"></script>
+	<script src="js/typed.js"></script>
+	
+	<!--
+		Google map api
+	-->
+	<script src="https://maps.google.com/maps/api/js?sensor=false"></script>
+	
+	<!--
+		Main Scripts
+	-->
+	<script src="js/scripts.js"></script>
+	
+</body>
 </html>
